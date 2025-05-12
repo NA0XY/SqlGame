@@ -81,7 +81,7 @@ def check_solution():
     if murderer_id == 6 or murderer_id == '6':
         return jsonify({'correct': True, 'message': 'Congratulations! You have solved the case! Laura White is indeed the murderer. She killed John Smith to prevent him from exposing her journalistic fraud.'}), 200
     else:
-        return jsonify({'correct': False, 'message': 'Incorrect. Keep investigating! Look for clues in the evidence, phone records, and alibi inconsistencies.'}), 200
+        return jsonify({'correct': False, 'message': 'Incorrect. Your Career as a Detective is as dead as the Victim.'}), 200
 
 if __name__ == '__main__':
     init_db()  # Initialize database if it doesn't exist
